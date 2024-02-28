@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.humberger-line {
+  @apply w-[27px] h-[2px] my-2 block;
+}
+
+.humberger-active > span:nth-child(1) {
+  @apply rotate-[45deg] bg-red-600;
+}
+
+.humberger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.humberger-active > span:nth-child(3) {
+  @apply -rotate-[45deg] bg-red-600;
+}
+
+body {
+  background-color: #FCFCFC;
+}
+
+.navbar-fixed {
+  @apply fixed z-[9999] bg-opacity-70;
+  backdrop-filter: blur(5px);
+  box-shodow: inset 0 -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container-contact{
+  background: rgb(23,37,84);
+  background: linear-gradient(90deg, rgba(23,37,84,1) 38%, rgba(6,6,199,1) 100%);
+}
+
+@media (max-width: 550px) {
+  .wrapper-jumbotron aside {
+    @apply w-full mx-auto;
+  }
+
+  .right-section {
+    @apply w-full;
+  }
+
+  .right-section p {
+    @apply ml-10;
+  }
+
+  .next-button {
+    @apply ml-5 mt-5;
+  }
+
+  .line {
+    @apply ml-4;
+  }
+
+}
