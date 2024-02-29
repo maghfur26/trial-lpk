@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
 }
 
 .navbar-fixed {
@@ -28,9 +28,9 @@ body {
   box-shodow: inset 0 -1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.container-contact{
-  background: rgb(23,37,84);
-  background: linear-gradient(90deg, rgba(23,37,84,1) 38%, rgba(6,6,199,1) 100%);
+.container-contact {
+  background: rgb(103, 101, 102);
+  background: linear-gradient(68deg, rgba(103, 101, 102, 1) 0%, rgba(245, 235, 191, 1) 50%, rgba(178, 162, 140, 1) 100%);
 }
 
 @media (max-width: 550px) {
@@ -53,5 +53,4 @@ body {
   .line {
     @apply ml-4;
   }
-
 }
